@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+.header .headerTop{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.headerLeftNav{
+    margin-left: -50px;
+    color: #fff;
+    padding: 5px 5px 2px 5px;
+    cursor: pointer;
+    
+    
+    
+}
+/* LOGO */
+.header .logo{
+    width: 100px;
+    object-fit: cover;
+    margin: 18px 10px 0 18px ;
+}
+/* LOGO */
+
+/* SEARCH BOX */
+.header .headerSearch {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.header .headerSearchInput {
+    width: 90%;
+    height: 15px;
+    padding: 10px;
+}
+
+.headerFlag img{
+    height: 22px;
+    width: 22px;
+    margin-left: -30px;
+}
+
+.headerFlag span{
+    color: #fff;
+    margin-left: -15px;
+}
+.header .headerSearchIcon {
+    background-color: #cd9042;
+    height: 35px;
+    cursor: pointer;
+}
+/* SEARCH BOX */
+
+/* LINK */
+.headerNavbar,  .headerNavbar span{
+    display: flex;
+    justify-content: center;
+}
+ 
+.headerLink:first-child{
+    width: 130px;
+}
+
+.headerNavbar .headerOptions , 
+.headerAddress .headerOptions{
+    display: flex;
+    flex-direction: column;
+   
+} .headerOptions{
+    margin-right: 15px;
+} 
+.headerOption_One{
+    font-size: 14px;
+    color: #fff;
+}
+
+.headerOption_Two{
+    font-size: 14px;
+    font-weight: 800;
+    color:#fff
+}
+
+.header-option{
+    color:#fff;
+    margin-left: -5px;
+}
+.headerAddress {
+    display: flex;
+}
+
+.headerAddress_Icon{
+    vertical-align: middle;
+    color: #fff;
+}

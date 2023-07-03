@@ -1,0 +1,71 @@
+.checkout_left{
+    background-color: rgb(234, 237,237);
+
+    width: 75%;
+}
+.checkout_right{
+    background-color: rgb(234, 237,237);
+
+    width:25%;
+}
+.checkout_add{
+    margin: 0px;
+    width: 100%;
+    height: 165px;
+    margin-bottom: 10px;
+}
+.checkout_img{
+  display: flex;
+  width: 50%;
+  height: 50%;
+}
+.checkout_msg{
+    text-align: center;
+    margin-top: -50px;
+}
+.checkout_deal{
+  text-align: center;
+  color: blue;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.checkout{
+    display: flex;
+    padding: 5px;
+    overflow-x: hidden;
+    background-color: #fff;
+    height: max-content;
+}
+.checkout_title{
+    /* display: flex; */
+    text-align: center;
+    margin-right: 10px;
+    /* padding: 10; */
+    border-bottom: 2px solid rgb(234, 237,237);
+    
+}
+.checkout_left .paybtn{
+  background-color: #dbea0b;
+  border-radius: 5px;
+  width: 20%;
+  height: 30px;
+  border:1px solid ;
+  margin-top:10px;
+  border-color:#a88734 #9c7e31 #846a29;
+  color:#111;
+  margin-left: 70px;
+
+}
+
+.checkout_left .signup{
+  background-color: #e3e4db;
+  border-radius: 5px;
+  width: 20%;
+  height: 30px;
+  border:1px solid ;
+  border-radius: 5px;
+  margin-top:10px;
+  color:#111;
+  margin-left: 70px;
+}
+

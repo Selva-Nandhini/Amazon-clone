@@ -1,0 +1,22 @@
+.headerLeftNav{
+    margin-left: 15px;
+}
+
+
+.headerBottom{
+    height: 30px;
+    background-color:#232f3e;
+    display: flex;
+    /* align-items: center; */
+    position: sticky;
+}
+.headerbottom_Navbar{
+    display: flex;
+    justify-content:left; 
+    flex: 1; 
+    cursor: pointer;
+}
+.headerbottom_Navbar span{
+    color: #fff;
+    margin-left: 15px;
+}
